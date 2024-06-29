@@ -16,7 +16,7 @@ body {
 
 .home {
 	height: 75vh;
-	width: 100vw;
+	width: 85vw;
 	background: #ffffff;
 	background-size: cover;
 	background-position: center;
@@ -139,7 +139,7 @@ body {
     justify-content: center;
     align-items: center;
 	text-align: center;
-	margin: 25vh;
+	margin: 10vh;
 	max-height: 100vh;
 	
 }
