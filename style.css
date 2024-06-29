@@ -15,7 +15,8 @@ body {
 }
 
 .home {
-	height: 80vh;
+	height: 75vh;
+	width: 100vw;
 	background: #ffffff;
 	background-size: cover;
 	background-position: center;
@@ -26,7 +27,7 @@ body {
 }
 
 .home-content {
-	max-width: 750px;
+	max-width: 80vh;
 	max-height: 600px;
 }
 
@@ -138,7 +139,7 @@ body {
     justify-content: center;
     align-items: center;
 	text-align: center;
-	margin: 150px;
-	
+	margin: 25vh;
+	max-height: 100vh;
 	
 }
