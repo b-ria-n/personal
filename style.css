@@ -15,15 +15,13 @@ body {
 }
 
 .home {
-	height: 75vh;
-	width: 85vw;
 	background: #ffffff;
 	background-size: cover;
 	background-position: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	height: 75vh;
 }
 
 .home-content {
@@ -55,6 +53,7 @@ body {
 	position: relative;
 	font-size: 16px;
 	margin: 20px 0 40px;
+	width: 75vh;
 }
 
 .home-content h2 {
