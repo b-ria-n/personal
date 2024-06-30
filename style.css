@@ -28,12 +28,12 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
+	min-height: 95vh;
 }
 
 .home-content {
-	max-width: 80vh;
-	max-height: 100vh;
+	max-width: 75vh;
+	max-height: 75vh;
 }
 
 .home-content bk {
@@ -60,7 +60,7 @@ body {
 .home-content p {
 	position: relative;
 	font-size: 16px;
-	max-width: 75vh;
+	max-width: 60vh;
 }
 
 .home-content h2 {
@@ -137,11 +137,10 @@ body {
 	color: #00abf0;
 }
 
-.home-content f1 {
-	position: relative;
+.footer {
 	font-size: 12px;
 	text-decoration: none;
 	padding: 10px 20px;
     text-align: center;
-	
+
 }
