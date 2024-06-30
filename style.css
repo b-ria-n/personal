@@ -9,45 +9,45 @@
 
 body, html {
     height: 100%;
-}
-
-body {
 	color: #000000;
 	text-align: center;
 	align-items: center;
 	display: flex;
     flex-direction: column;
-    min-height: 100vh
 }
 
-.home {
-	background: #ffffff;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 95vh;
+.header {
+	max-height: 5%;
+	
 }
 
-.home-content {
-	max-width: 80vh;
-	max-height: 96vh;
-	overflow: hidden;
-}
-
-.home-content bk {
-	position: relative;
-	font-size: 60px;
+.header bk {
+	position: center;
+	font-size: 56px;
 	text-decoration: none;
 	display: flex;
     justify-content: center;
     align-items: center;
 	font-weight: 700;
 	text-align: center;
-	margin-bottom: 30px;
 	letter-spacing: 5px;
+	margin: 50px;
+	overflow: hidden;
 	
+}
+
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 90vh;
+	max-width: 80vh;
+}
+
+.home-content {
+	max-width: 80vh;
+	max-height: 95vh;
+	overflow: hidden;
 }
 
 .home-content h1 {
@@ -60,7 +60,6 @@ body {
 .home-content p {
 	position: relative;
 	font-size: 16px;
-	max-width: 60vh;
 }
 
 .home-content h2 {
