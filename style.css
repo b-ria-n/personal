@@ -21,12 +21,12 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 75vh;
+	min-height: 100vh;
 }
 
 .home-content {
 	max-width: 80vh;
-	max-height: 600px;
+	max-height: 100vh;
 }
 
 .home-content bk {
