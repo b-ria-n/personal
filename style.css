@@ -8,44 +8,24 @@
 }
 
 body, html {
-    height: 95%;
+    height: 100%;
 	color: #000000;
 	text-align: center;
 	align-items: center;
 	display: flex;
     flex-direction: column;
-}
-
-.header {
-	max-height: 5%;
-	
-}
-
-.header bk {
-	position: center;
-	font-size: 50px;
-	text-decoration: none;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	font-weight: 700;
-	text-align: center;
-	margin: 50px;
-	letter-spacing: 5px;
 	overflow: hidden;
-	
 }
 
 .home {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 80vh;
-	max-width: 80vh;
+	min-height: 95vh;
+	max-width: 75vh;
 }
 
 .home-content {
-	max-width: 75vh;
 	overflow: hidden;
 }
 
