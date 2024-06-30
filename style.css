@@ -38,7 +38,7 @@ body {
     align-items: center;
 	font-weight: 700;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	letter-spacing: 5px;
 	
 }
@@ -47,13 +47,13 @@ body {
 	position: relative;
 	font-size: 40px;
 	font-weight: 700;
+	margin: 0 0 15px;
 }
 
 .home-content p {
 	position: relative;
 	font-size: 16px;
-	margin: 20px 0 40px;
-	width: 75vh;
+	max-width: 75vh;
 }
 
 .home-content h2 {
@@ -61,7 +61,7 @@ body {
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.2;
-	margin: 75px 0 30px;
+	margin: 40px 0 25px;
 }
 
 .home-content .btn-box {
@@ -71,7 +71,7 @@ body {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	margin: 0px 0px 20px;
+	margin: 0px 0px 25px;
 }
 
 .btn-box a {
@@ -105,7 +105,7 @@ body {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	gap: 20px;
+	gap: 25px;
 }
 
 .crc-hyp a {
@@ -118,7 +118,7 @@ body {
 	background: #ededed;
 	border: 2px solid #ededed;
 	border-radius: 50%;
-	font-size: 25px;
+	font-size: 28px;
 	color: #000000;
 	text-decoration: none;
 	z-index: 1;
