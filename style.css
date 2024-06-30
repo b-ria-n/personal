@@ -7,11 +7,18 @@
 	font-family: 'Poppins', sans-serif;	
 }
 
+body, html {
+    height: 100%;
+}
+
 body {
 	color: #000000;
 	overflow: hidden;
 	text-align: center;
 	align-items: center;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh
 }
 
 .home {
@@ -134,11 +141,7 @@ body {
 	position: relative;
 	font-size: 12px;
 	text-decoration: none;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	text-align: center;
-	margin: 10vh;
-	max-height: 100vh;
+	padding: 10px 20px;
+    text-align: center;
 	
 }
