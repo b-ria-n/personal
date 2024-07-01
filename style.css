@@ -41,8 +41,6 @@ html, body {
 	max-width: 75vh;
 }
 
-*/
-
 .home {
     flex: 1;
     display: flex;
@@ -53,8 +51,19 @@ html, body {
     padding: 20px;
 }
 
-.home-content {
-	overflow: hidden;
+*/
+
+.home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .home-content h1 {
@@ -160,7 +169,7 @@ html, body {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     position: absolute;
     bottom: 0;
 }
