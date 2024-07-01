@@ -75,6 +75,7 @@ html, body {
     width: 90%;
     padding: 20px;
     overflow: auto;
+	max-width: 75vh;
 }
 
 .home-content h1 {
