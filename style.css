@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap');
 
 :root {
     --primary-color: #ffffff;
@@ -47,10 +48,14 @@ html, body {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    font-weight: 750;
     color: var(--button-text-color);
-    line-height: 50px;
+    line-height: 50px; /* Adjust the line-height to match the height of box-settings */
+    background: linear-gradient(90deg, #23066d, #6f0095);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box-settings {
@@ -122,7 +127,7 @@ html, body {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
-    margin: 75px 0 25px;
+    margin: 100px 0 25px;
 }
 
 .home-content .btn-box {
