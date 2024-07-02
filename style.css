@@ -67,6 +67,10 @@ html, body {
     color: var(--accent-color);
 }
 
+.box-settings a:active {
+    color: var(--button-text-color);
+}
+
 #icon {
     border-right: 2px solid var(--primary-color);
 }
@@ -143,6 +147,10 @@ html, body {
     color: var(--accent-color);
 }
 
+.btn-box a:active {
+    color: var(--button-text-color);
+}
+
 .home-content .crc-hyp {
     position: relative;
     display: flex;
@@ -173,6 +181,10 @@ html, body {
 
 .crc-hyp a:hover {
     color: var(--accent-color);
+}
+
+.crc-hyp a:active {
+    color: var(--button-text-color);
 }
 
 .footer {
