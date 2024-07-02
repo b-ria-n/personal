@@ -7,6 +7,7 @@
     --button-color: #ededed;
     --button-text-color: #000000;
 	--accent-color: #00abf0;
+	--logo-color: #ABF000;
 }
 
 .dark-theme {
@@ -15,6 +16,7 @@
     --button-color: #343434;
     --button-text-color: #ededed;
 	--accent-color: #b072fc;
+	--logo-color: #72FCB0;
 }
 
 * {
@@ -52,8 +54,8 @@ html, body {
     font-size: 23px;
     font-weight: 750;
     color: var(--button-text-color);
-    line-height: 50px; /* Adjust the line-height to match the height of box-settings */
-    background: linear-gradient(90deg, #23066d, #6f0095);
+    line-height: 50px;
+    background: linear-gradient(90deg, var(--accent-color), var(--logo-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
