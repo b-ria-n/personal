@@ -63,12 +63,9 @@ html, body {
     transition: .5s;
 }
 
-.box-settings a:hover {
+.box-settings a:hover,
+.box-settings a:focus {
     color: var(--accent-color);
-}
-
-.box-settings a:active {
-    color: var(--button-text-color);
 }
 
 #icon {
@@ -143,12 +140,9 @@ html, body {
     transition: .5s;
 }
 
-.btn-box a:hover {
+.btn-box a:hover,
+.btn-box a:focus {
     color: var(--accent-color);
-}
-
-.btn-box a:active {
-    color: var(--button-text-color);
 }
 
 .home-content .crc-hyp {
@@ -179,12 +173,9 @@ html, body {
     transition: .5s;
 }
 
-.crc-hyp a:hover {
+.crc-hyp a:hover,
+.crc-hyp a:focus {
     color: var(--accent-color);
-}
-
-.crc-hyp a:active {
-    color: var(--button-text-color);
 }
 
 .footer {
