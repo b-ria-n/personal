@@ -1,56 +1,73 @@
 <!doctype html>
 
 <html lang="en">
-	
 <head>
-	
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Brian Koch</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon-32x32.png" type="image/png">
-	<link rel="icon" href="favicon-16x16.png" type="image/png">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" href="favicon.svg" type="image/svg+xml">
-	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Koch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+    <link rel="icon" href="favicon-16x16.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
-	
-	<section class="home">
-		
-		<div class="home-content">
-			
-			<h1>INFORMATION</h1>
-			<p>Die Domain - briankoch.de - wird ausschließlich für E-Mail Kommunikation genutzt. Diese Website informiert lediglich über diesen Fakt und bietet Möglichkeiten zur Kontaktaufnahme.</p>
-			<h2>KONTAKT</h2>
-			
-			<div class="btn-box">
-				
-				<a href="mailto:contact@briankoch.de">contact@briankoch.de</a>
-				
-			</div>
-			
-			<div class="crc-hyp">
-				
-				<a href="https://www.linkedin.com/in/briankochde/?locale=de_DE" target="_blank"><i class="bx bxl-linkedin"></i></a>
-				<a href="https://www.xing.com/profile/Brian_Koch3/web_profiles?expandNeffi=true" target="_blank"><i class="bx bxl-xing"></i></a>
-				
-			</div>
-			
-		</div>
-		
-	</section>
-	
-	<section class="footer">
-		
-		<f1>© 2024 Brian Koch / Version 1.5.2</f1>
-		
-    </section>	
-	
+    <section class="header">
+        <div class="box-settings">
+            <a href="#" id="icon"><i class="bx bx-moon"></i></a>
+            <a href="#" id="language-icon">EN</a>
+        </div>
+    </section>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>INFORMATION</h1>
+            <p id="info-text">Die Domain - briankoch.de - wird ausschließlich für E-Mail Kommunikation genutzt. Diese Website informiert lediglich über diesen Fakt und bietet Möglichkeiten zur Kontaktaufnahme.</p>
+            <h2 id="contact-text">KONTAKT</h2>
+
+            <div class="btn-box">
+                <a href="mailto:contact@briankoch.de">contact@briankoch.de</a>
+            </div>
+
+            <div class="crc-hyp">
+                <a href="https://www.linkedin.com/in/briankochde/?locale=de_DE" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.xing.com/profile/Brian_Koch3/web_profiles?expandNeffi=true" target="_blank"><i class="bx bxl-xing"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <f1>© 2024 Brian Koch / Version 1.6.1</f1>
+    </section>
+
+    <script>
+        var icon = document.getElementById("icon");
+        var languageIcon = document.getElementById("language-icon");
+
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.innerHTML = '<i class="bx bx-sun"></i>';
+            } else {
+                icon.innerHTML = '<i class="bx bx-moon"></i>';
+            }
+        }
+
+        languageIcon.onclick = function() {
+            var infoText = document.getElementById("info-text");
+            var contactText = document.getElementById("contact-text");
+            if (infoText.innerText === "Die Domain - briankoch.de - wird ausschließlich für E-Mail Kommunikation genutzt. Diese Website informiert lediglich über diesen Fakt und bietet Möglichkeiten zur Kontaktaufnahme.") {
+                infoText.innerText = "The domain - briankoch.de - is used exclusively for email communication. This website only informs about this fact and offers contact options.";
+                contactText.innerText = "CONTACT";
+            } else {
+                infoText.innerText = "Die Domain - briankoch.de - wird ausschließlich für E-Mail Kommunikation genutzt. Diese Website informiert lediglich über diesen Fakt und bietet Möglichkeiten zur Kontaktaufnahme.";
+                contactText.innerText = "KONTAKT";
+            }
+        }
+    </script>
 </body>
-	
 </html>
