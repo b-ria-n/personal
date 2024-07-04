@@ -98,8 +98,6 @@ html, body {
     font-weight: 500;
 }
 
-/*
-
 .home {
     flex: 1;
     display: flex;
@@ -111,8 +109,6 @@ html, body {
     overflow: auto;
     max-width: 75vh;
 } 
-
-*/
 
 .home-content {
     position: fixed;
@@ -139,17 +135,20 @@ html, body {
     margin-bottom: 25px;
 }
 
+.home-content h1 {
+	height: 20%
+	
+}
+
 .home-content p {
     font-size: 16px;
     text-align: justify;
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 0 75px 0;
 }
 
 .home-content h2 {
-    position: relative;
-    font-size: 40px;
-    font-weight: 700;
+	height: 60%
 }
 
 .home-content .btn-box {
