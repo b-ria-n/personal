@@ -98,6 +98,8 @@ html, body {
     font-weight: 500;
 }
 
+/*
+
 .home {
     flex: 1;
     display: flex;
@@ -108,7 +110,19 @@ html, body {
     padding: 20px;
     overflow: auto;
     max-width: 75vh;
+} 
+
+*/
+
+.home-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+
+/*
 
 .home-content h1 {
     position: relative;
@@ -117,12 +131,33 @@ html, body {
     margin: 0 0 15px;
 }
 
+*/
+
+.home-content h1, .home-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/*
+
 .home-content p {
     position: relative;
     font-size: 16px;
     text-align: justify;
     max-width: 400px;
 }
+
+*/
+
+.home-content p {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 400px;
+    margin: 0 0 25px 0;
+}
+
+/*
 
 .home-content h2 {
     position: relative;
@@ -131,6 +166,8 @@ html, body {
     line-height: 1.2;
     margin: 100px 0 25px;
 }
+
+*/
 
 .home-content .btn-box {
     position: relative;
